@@ -1,9 +1,14 @@
 {
   "dependencies": {
+    "@react-native-community/netinfo": "^6.0.0",
+    "amazon-cognito-identity-js": "^5.1.0",
+    "aws-amplify": "^4.2.4",
+    "aws-amplify-react-native": "^5.0.3",
     "expo": "~42.0.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native-vector-icons": "^8.1.0",
     "react-native-web": "~0.13.12"
   },
   "devDependencies": {
