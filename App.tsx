@@ -1,5 +1,12 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Text, View, TextInput, Button } from 'react-native';
+import Styles from './AppStyles'
+import Amplify, { API, graphqlOperation } from 'aws-amplify'
+import { createTodo } from './src/graphql/mutations'
+import { listTodos } from './src/graphql/queries'
+import awsExports from './src/aws-exports'
+Amplify.configure(awsExports)
+
 
 export default function App() {
   return (

@@ -10,4 +10,4 @@ export default StyleSheet.create({
              padding: 8
 },
     todoName: { fontSize: 19}
-})
+});
